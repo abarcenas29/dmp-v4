@@ -1,0 +1,73 @@
+#dmp-home-body {
+  width:100%;
+  #home-wrapper {
+    display:table;
+    .content-area();
+    background-color:white;
+    #home-content {
+      display:table-cell;
+      width:70%;
+      padding:0.5em 1em 0.5em 1em;
+      text-align:left;
+    }
+    #side-content {
+      display:table-cell;
+      text-align:left;
+      width:30%;
+      border-left:1px #d8e0e3 solid;
+      padding-left:0.5em;
+      padding-right:0.5em;
+      h2 {
+        .oswaldfont();
+      }
+    }
+  }
+  
+  #announcement-content {
+    .content-area();
+    display:table;
+    text-align:left;
+    background-color:white;
+    #announcement-container {
+      display:table-cell;
+      padding:0.5em 1em 0.5em 1em;
+      #annoucement-title {
+        .oswaldfont();
+        color:@redmotif;
+      }
+      #headline {
+        .serif-font();
+        .anime-link(@darkfont,@colorfont);
+      }
+      h2 {
+        margin:0;
+        font-size:2em;
+      }
+    }
+  }
+}
+
+.review-content {
+  position:relative;
+  .review-image{
+    position:relative;
+    height:10em;
+    overflow:hidden;
+    img {
+      position:absolute;
+      top:-4em;
+    }
+  }
+  .review-title {
+    position:relative;
+    bottom:1.5em;
+    background-color:white;
+    width:18em;
+    h3 {
+      margin:0;
+      font-size:1.5em;
+      .serif-font();
+    }
+  }
+  .anime-link(@darkfont,@colorfont);
+}

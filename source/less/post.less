@@ -1,0 +1,98 @@
+.post-content {
+  #post-area {
+    display:table;
+    background-color:@content-color;
+  }
+  .the-post {
+    width:100%;
+    display:table;
+    .the-content {
+      display:table-cell;
+      text-align:left;
+      .post-padding();
+      header {
+        h3 {
+          .serif-font();
+          color:@darkfont;
+          margin:0.3em 0 0.3em 0;
+        }
+        section {
+          border-top:0.1em @lightborder solid;
+          border-bottom:0.1em @lightborder solid;
+          font-size:0.8em;
+          color:@lighterfont;
+          p {
+            margin:0.2em 0 0.2em 0;
+            strong {
+              .anime-link(@lighterfont,@colorfont);
+            }
+          }
+        }
+      }
+      .main-content {
+        
+        p {
+          color:@darkfont;
+          
+          .anime-link(@redmotif,#0b69c6);
+          
+          a {
+            font-weight:bold;
+          }
+          
+          img {
+            padding-bottom:1.0em;
+          }
+        }
+        h2 {
+            font-size:1.5em;
+          }
+          h3 {
+            font-size:1.0em;
+          }
+          h1,h2,h3,h4 {
+            .serif-font();
+            color:@darkfont;
+        }
+        
+        blockquote {
+          .serif-font();
+          font-size:2em;
+          color:@lightfont;
+          font-weight:bold;
+          font-style:italic;
+          p {
+            border-left:0.2em @lightborder solid;
+            padding-left:0.5em;
+          }
+        }
+        
+        border-bottom:0.1em @lightborder solid;
+      }
+    }
+  }
+}
+
+#comments {
+  width:100%;
+  padding-top:1.0em;
+}
+
+#the-cat {
+  display:block;
+  .post-padding();
+  h2 {
+    text-align:left;
+    margin:0;
+    .anime-link(@lightfont,@colorfont);
+    .oswaldfont();
+  }
+  hr {
+    color:@darkborder;
+    border:0.2em @darkborder solid;
+  }
+}
+
+.post-padding() {
+  padding:0.2em 1em 0.2em 1em;
+}

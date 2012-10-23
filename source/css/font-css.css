@@ -1,0 +1,24 @@
+@import url('ico-fonts.css');
+
+@font-face {
+    font-family: 'OsakaSansSerifRegular';
+    src: url('fonts/osaka-re-webfont.eot');
+    src: url('fonts/osaka-re-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/osaka-re-webfont.woff') format('woff'),
+         url('fonts/osaka-re-webfont.ttf') format('truetype'),
+         url('fonts/osaka-re-webfont.svg#OsakaSansSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.osaka-font {
+	font-family: OsakaSansSerifRegular,Arial, Helvetica, sans-serif;
+}
+
+.icomoon {
+	font-family:'IcoMoon';
+}
+
+img {
+	border:0;
+}

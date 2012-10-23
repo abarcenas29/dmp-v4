@@ -1,0 +1,108 @@
+@font-face {
+	font-family: 'IcoMoon';
+	src: url('fonts/IcoMoon.eot');
+	src: url('fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/IcoMoon.svg#IcoMoon') format('svg'),
+		url('fonts/IcoMoon.woff') format('woff'),
+		url('fonts/IcoMoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'IcoMoon';
+	content: attr(data-icon);
+	speak: none;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'IcoMoon';
+	font-style: normal;
+	speak: none;
+}
+.icon-arrow-down:before {
+	content: "\21";
+}
+.icon-arrow-up:before {
+	content: "\22";
+}
+.icon-arrow-right:before {
+	content: "\23";
+}
+.icon-arrow-left:before {
+	content: "\24";
+}
+.icon-arrow-up-left:before {
+	content: "\25";
+}
+.icon-arrow-up-2:before {
+	content: "\26";
+}
+.icon-arrow-up-right:before {
+	content: "\27";
+}
+.icon-arrow-right-2:before {
+	content: "\28";
+}
+.icon-arrow-down-right:before {
+	content: "\29";
+}
+.icon-arrow-down-2:before {
+	content: "\2a";
+}
+.icon-facebook:before {
+	content: "\2b";
+}
+.icon-facebook-2:before {
+	content: "\2c";
+}
+.icon-twitter:before {
+	content: "\2d";
+}
+.icon-feed:before {
+	content: "\2e";
+}
+.icon-google-plus:before {
+	content: "\2f";
+}
+.icon-google-plus-2:before {
+	content: "\30";
+}
+.icon-twitter-2:before {
+	content: "\31";
+}
+.icon-left-quote:before {
+	content: "\32";
+}
+.icon-thumbs-up:before {
+	content: "\33";
+}
+.icon-dots-three:before {
+	content: "\34";
+}
+.icon-home:before {
+	content: "\35";
+}
+.icon-microphone:before {
+	content: "\36";
+}
+.icon-bell:before {
+	content: "\37";
+}
+.icon-arrow:before {
+	content: "\38";
+}
+.icon-arrow-2:before {
+	content: "\39";
+}
+.icon-arrow-3:before {
+	content: "\3a";
+}
+.icon-arrow-4:before {
+	content: "\3b";
+}
+.icon-warning:before {
+	content: "\3c";
+}
