@@ -1,6 +1,6 @@
 <?
 	$realpath = $_SERVER['DOCUMENT_ROOT']
-	.'/dmp/wp-content/themes/dmp-v4';
+	.'/wp-content/themes/dmp-v4';
 	
 	//Essential Functions
 	include($realpath . '/functions/default_func.php');
