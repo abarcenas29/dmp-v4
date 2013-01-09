@@ -5,7 +5,7 @@
 	<title></title>
 	<!-- Default Styling -->
 	<?php
-		echo styling('less', base_url('source/less/main.less'));
+		echo styling('less', base_url('source/less/style.less'));
 		echo styling('css', base_url('source/css/font-css.css'));
 	?>
 	<!-- Plugin Generated Code -->
