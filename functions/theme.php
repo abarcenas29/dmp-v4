@@ -121,8 +121,4 @@
 		return preg_replace('/<a[^>]+>Continue reading.*?<\/a>/i','',$output);
 	}
 	add_filter( 'get_the_excerpt', 'sbt_custom_excerpt_more', 20 );
-	
-	function _q($args) {
-		return new WP_Query($args);
-	}
 ?>
