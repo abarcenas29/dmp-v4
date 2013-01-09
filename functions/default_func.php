@@ -29,7 +29,7 @@
 		TRUE);
 	}
 	//add_action('admin_init', 'add_script_code');
-	add_action('wp_footer', 'add_script_code');
+	add_action('init', 'add_script_code');
 	
 	function _q($args) {
 		return new WP_Query($args);
