@@ -117,11 +117,6 @@
 		}
 	}
 	
-	function sbt_auto_excerpt_more( $more ) {
-		return ' ...';
-	}
-	add_filter( 'excerpt_more', 'sbt_auto_excerpt_more', 20 );
-	
 	function sbt_custom_excerpt_more( $output ) {
 		return preg_replace('/<a[^>]+>Continue reading.*?<\/a>/i','',$output);
 	}
