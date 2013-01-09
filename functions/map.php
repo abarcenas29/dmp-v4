@@ -1,4 +1,4 @@
-<?
+<?php
 	function catlist($cat) {
 		$category = array(
 			'rev' => 21,	//review

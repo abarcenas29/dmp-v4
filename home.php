@@ -1,9 +1,9 @@
-<? get_header(); ?>
+<?php get_header(); ?>
 <article id="dmp-home-body">
 	<article id="announcement-content">
 		<section id="announcement-container">
 			<h2><span id="annoucement-title" class="icon-warning"> Announcement:</span>
-				<span id="headline"><? get_annoucnement(); ?></span></h2>
+				<span id="headline"><?php get_annoucnement(); ?></span></h2>
 		</section>
 	</article>
 	<article id="home-wrapper">
@@ -20,7 +20,7 @@
 				</footer>
 			</article>
 			-->
-			<?
+			<?php
 				generatePost();
 			?>
 		</section>
@@ -40,7 +40,7 @@
 						</a>
 					</div>
 					-->
-					<?
+					<?php
 						get_rev();
 					?>
 				</section>
@@ -48,4 +48,4 @@
 		</aside>
 	</article>
 </article>
-<? get_footer(); ?>
+<?php get_footer(); ?>

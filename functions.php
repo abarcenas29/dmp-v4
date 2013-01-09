@@ -1,4 +1,4 @@
-<?
+<?php
 	$realpath = $_SERVER['DOCUMENT_ROOT']
 	.'/wp-content/themes/dmp-v4';
 	

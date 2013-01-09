@@ -1,17 +1,17 @@
-<? get_header(); ?>
+<?php get_header(); ?>
 	<article class="post-content">
 		<section class="content-area" id="post-area">
-			<? the_post() ?>
+			<?php the_post() ?>
 			<section class="the-post">
 				<article class="the-content">
 					<header>
-						<h3><? the_title() ?></h3>
+						<h3><?php the_title() ?></h3>
 						<section>
-							<p>By: <strong><? the_author() ?></strong> on <i><? the_time(time_format()) ?></i></p>
+							<p>By: <strong><?php the_author() ?></strong> on <i><?php the_time(time_format()) ?></i></p>
 						</section>
 					</header>
 					<section class="main-content">
-						<?
+						<?php
 							the_content();
 						?>
 						<p><i>Images Used are under Fair Use</i></p>
@@ -23,4 +23,4 @@
 			</section>
 		</section>
 	</article>
-<? get_footer(); ?>
+<?php get_footer(); ?>

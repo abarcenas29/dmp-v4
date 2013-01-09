@@ -4,25 +4,25 @@
 	<meta lang="en" />
 	<title></title>
 	<!-- Default Styling -->
-	<?
+	<?php
 		echo styling('less', base_url('source/less/main.less'));
 		echo styling('css', base_url('source/css/font-css.css'));
 	?>
 	<!-- Plugin Generated Code -->
-	<? wp_head() ?>
+	<?php wp_head() ?>
 </head>
 <body>
 	<header id="dmp-header">
 		<section id="dmp-header-wrapper">
 			<section id="dmp-brand">
-				<h1 class="osaka-font"><a href="<? bloginfo('url') ?>">the deremoe project</a></h1>
+				<h1 class="osaka-font"><a href="<?php bloginfo('url') ?>">the deremoe project</a></h1>
 			</section>
 			<section id="social-bar">
 				<h1>
-					<a href="<? header_social('facebook') ?>" target="_blank">+</a>
-					<a href="<? header_social('twitter') ?>" target="_blank">-</a>
-					<a href="<? header_social('gplus') ?>" target="_blank">/</a>
-					<a href="<? bloginfo('rss2_url') ?>" target="_blank">.</a>
+					<a href="<?php header_social('facebook') ?>" target="_blank">+</a>
+					<a href="<?php header_social('twitter') ?>" target="_blank">-</a>
+					<a href="<?php header_social('gplus') ?>" target="_blank">/</a>
+					<a href="<?php bloginfo('rss2_url') ?>" target="_blank">.</a>
 				</h1>
 			</section>
 		</section>
@@ -32,14 +32,14 @@
 			<article id="dmp-nav-container">
 				<section id="dmp-cat-menu">
 					<ul>
-						<li><a href="<? echo bloginfo('url') ?>" class="icomoon">5</a></li>
+						<li><a href="<?php echo bloginfo('url') ?>" class="icomoon">5</a></li>
 						<li><a href="#dmp-main-menu" class="dmp-menu">Main Menu<span class="icon-arrow-down"></span></a></li>
 						<li><a href="#dmp-events" class="dmp-menu">Events<span class="icon-arrow-down"></span></a></li>
 						<li><a href="#dmp-podcasts" class="dmp-menu"><span class="icon-microphone"></span>Podcast<span class="icon-arrow-down"></span></a></li>
 					</ul>
 				</section>
 				<section id="dmp-page-menu">
-					<?
+					<?php
 						show_navmenu('header_page');
 					?>
 				</section>
@@ -51,12 +51,12 @@
 				<section id="dmp-main-menu" class="nav-items">
 					<article id="nav-main" class="nav-wrapper">
 							<div id="category-menu">
-								<?
+								<?php
 									show_navmenu('cat_menu');
 								?>
 							</div>
 							<div id="category-feature">
-								<?
+								<?php
 									show_navmenu('ani_menu');
 								?>
 							</div>
@@ -81,7 +81,7 @@
 								<h4>ToyCon 2012 Podcast Day2</h4>
 								</div>
 							</div> -->
-							<?
+							<?php
 								get_events(catlist('eve'));
 							?>
 						</section>
@@ -90,7 +90,7 @@
 				<section id="dmp-podcasts" class="nav-items">
 					<article id="nav-podcasts" class="main-wrapper">
 						<section class="slide-gallery">
-						<?
+						<?php
 							get_events(catlist('pod'))
 						?>
 						</section>

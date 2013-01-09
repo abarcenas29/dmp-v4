@@ -1,4 +1,4 @@
-<? get_header() ?>
+<?php get_header() ?>
 	<article id="page-404">
 		<section id="page-404-wrapper">
 			<div>
@@ -6,4 +6,4 @@
 			</div>
 		</section>
 	</article>
-<? get_footer() ?>
+<?php get_footer() ?>

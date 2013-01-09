@@ -1,4 +1,4 @@
-<?	
+<?php	
 	$themename = "dmp-v4";
 	$shortname = "dmp4";
 	

@@ -1,4 +1,4 @@
-<?
+<?php
 	// smart jquery inclusion
 
 	function add_script_code() {

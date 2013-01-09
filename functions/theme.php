@@ -1,4 +1,4 @@
-<?
+<?php
 	function search_ajax() {
 		global $wpdb;
 		$esc_string = mysql_escape_string($_POST['data']['query']);

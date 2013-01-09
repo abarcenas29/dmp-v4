@@ -1,23 +1,23 @@
-<? get_header() ?>
+<?php get_header() ?>
 	<article id="dmp-author">
 		<section id="author-wrapper">
-			<? the_post() ?>
+			<?php the_post() ?>
 			<div id="author-title">
-				<h2><? the_author_nickname() ?></h2>
+				<h2><?php the_author_nickname() ?></h2>
 				<hr>
 			</div>
 			<div id="author-count">
-				<h3><? the_author_posts() ?></h3>
+				<h3><?php the_author_posts() ?></h3>
 			</div>
 		</section>
 		<section id="author-card">
 			<div id="author-card-wrapper">
 				<article>
 					<section>
-						<? echo get_avatar(get_the_author_ID(),128) ?>
+						<?php echo get_avatar(get_the_author_ID(),128) ?>
 					</section>
 					<section>
-						<?  the_author_description() ?>
+						<?php  the_author_description() ?>
 					</section>
 				</article>
 			</div>
@@ -42,41 +42,41 @@
 					<table>
 						<!--
 						<tr>
-							<td><? echo get_avatar(1,64) ?></td>
+							<td><?php echo get_avatar(1,64) ?></td>
 							<td><span>SOLIDAD</span></td>
 							<td>689</td>
 						</tr>
 						-->
-						<?
+						<?php
 							author_leaderboard();
 						?>
 					</table>
 				</div>
 				<div id="author-posts">
-					<? while (have_posts()):the_post() ?>
+					<?php while (have_posts()):the_post() ?>
 						<article class="author-posts">
 							<header><h4><a href="<? the_permalink() ?>"><? the_title() ?></a></h4></header>
 							<section>
-								<? the_excerpt(); ?>
+								<?php the_excerpt(); ?>
 							</section>
 							<footer>
 								
 							</footer>
 						</article>
 					
-					<? endwhile; ?>
+					<?php endwhile; ?>
 				</div>
 			</div>
 		</section>
 		<section id="pignation-container">
 			<section id="page-navigation">
 				<div id="page-prev">
-					<h4><? previous_posts_link(nav_icons(FALSE),TRUE); ?></h4>
+					<h4><?php previous_posts_link(nav_icons(FALSE),TRUE); ?></h4>
 					</div>
 				<div id="page-next">
-					<h4><? next_posts_link(nav_icons(),TRUE); ?></h4>
+					<h4><?php next_posts_link(nav_icons(),TRUE); ?></h4>
 				</div>
 			</section>
 		</section>
 	</article>
-<? get_footer() ?>
+<?php get_footer() ?>
