@@ -11,14 +11,14 @@
 					<header>
 						<h3><?php the_title() ?></h3>
 						<section>
-							<p>By: <strong><a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><? the_author() ?></a></strong> on <i><? the_time(time_format()) ?></i></p>
+							<p>By: <strong><a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php the_author() ?></a></strong> on <i><?php the_time(time_format()) ?></i></p>
 						</section>
 					</header>
 					<section class="main-content">
 						<?php
 							the_content();
 						?>
-						<p><i>Images Used are under Fair Use</i></p>
+						<p><i>Images Used are under <a href="http://www.law.cornell.edu/uscode/17/107.html" title="Copyright Act of 1976, 17 U.S.C. § 107">Fair Use</a>.</i></p>
 					</section>
 					<footer id="comments">
 						<?php comments_template(); ?>

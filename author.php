@@ -55,7 +55,7 @@
 				<div id="author-posts">
 					<?php while (have_posts()):the_post() ?>
 						<article class="author-posts">
-							<header><h4><a href="<? the_permalink() ?>"><? the_title() ?></a></h4></header>
+							<header><h4><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h4></header>
 							<section>
 								<?php the_excerpt(); ?>
 							</section>

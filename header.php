@@ -1,8 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta lang="en" />
-	<title></title>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <title>
+	 <?php wp_title('|',true,'right'); ?>
+	 <?php bloginfo('name'); ?>
+	</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 	<!-- Default Styling -->
 	<?php
 		echo styling('less', base_url('source/less/style.less'));
@@ -15,7 +22,7 @@
 	<header id="dmp-header">
 		<section id="dmp-header-wrapper">
 			<section id="dmp-brand">
-				<h1 class="osaka-font"><a href="<?php bloginfo('url') ?>">the deremoe project</a></h1>
+				<h1 class="osaka-font"><a href="<?php bloginfo('url') ?>">deremoe</a></h1>
 			</section>
 			<section id="social-bar">
 				<h1>

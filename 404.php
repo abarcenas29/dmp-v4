@@ -2,7 +2,7 @@
 	<article id="page-404">
 		<section id="page-404-wrapper">
 			<div>
-				<img src="<? echo base_url('source/images/404.jpg') ?>">
+				<img src="<?php echo base_url('source/images/404.jpg') ?>">
 			</div>
 		</section>
 	</article>
