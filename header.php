@@ -12,8 +12,8 @@
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 	<!-- Default Styling -->
 	<?php
-		echo styling('less', base_url('source/less/style.less'));
 		echo styling('css', base_url('source/css/font-css.css'));
+                echo styling('css', base_url('source/css/style.css'))
 	?>
 	<!-- Plugin Generated Code -->
 	<?php wp_head() ?>

@@ -10,12 +10,6 @@
 		'1.3.0',
 		TRUE );
 		wp_enqueue_script(
-		'less',
-		base_url('source/js/less-1.3.0.min.js'),
-		false,
-		'1.3.0',
-		TRUE);
-		wp_enqueue_script(
 		'vars',
 		base_url('source/js/vars.js'),
 		false,
