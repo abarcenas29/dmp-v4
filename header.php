@@ -4,7 +4,6 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <title>
 	 <?php wp_title('|',true,'right'); ?>
-	 <?php bloginfo('name'); ?>
 	</title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
@@ -16,6 +15,8 @@
                 echo styling('css', base_url('source/css/style.css'))
 	?>
 	<!-- Plugin Generated Code -->
+	<link rel="stylesheet" type="text/css" href="http://deremoe.com/wp-content/themes/dmp-v4/style.css?123123"/>  
+
 	<?php wp_head() ?>
 </head>
 <body>
@@ -26,10 +27,10 @@
 			</section>
 			<section id="social-bar">
 				<h1>
-					<a href="<?php header_social('facebook') ?>" target="_blank">+</a>
-					<a href="<?php header_social('twitter') ?>" target="_blank">-</a>
-					<a href="<?php header_social('gplus') ?>" target="_blank">/</a>
-					<a href="<?php bloginfo('rss2_url') ?>" target="_blank">.</a>
+					<a title="Facebook" href="<?php header_social('facebook') ?>" target="_blank">+</a>
+					<a title="Twitter" href="<?php header_social('twitter') ?>" target="_blank">-</a>
+					<a title="Google+" href="<?php header_social('gplus') ?>" target="_blank">/</a>
+					<a title="RSS Feed for all posts" href="<?php bloginfo('rss2_url') ?>" target="_blank">.</a>
 				</h1>
 			</section>
 		</section>
@@ -39,10 +40,10 @@
 			<article id="dmp-nav-container">
 				<section id="dmp-cat-menu">
 					<ul>
-						<li><a href="<?php echo bloginfo('url') ?>" class="icomoon">5</a></li>
-						<li><a href="#dmp-main-menu" class="dmp-menu">Main Menu<span class="icon-arrow-down"></span></a></li>
-						<li><a href="#dmp-events" class="dmp-menu">Events<span class="icon-arrow-down"></span></a></li>
-						<li><a href="#dmp-podcasts" class="dmp-menu"><span class="icon-microphone"></span>Podcast<span class="icon-arrow-down"></span></a></li>
+						<li><a title="Would you like to go back to the home page?" href="<?php echo bloginfo('url') ?>" class="icomoon">5</a></li>
+						<li><a title="This is basically your guide to the website." href="#dmp-main-menu" class="dmp-menu">Main Menu<span class="icon-arrow-down"></span></a></li>
+						<li><a title="Deremoe also covers events that is worthy to be observed by those who are new to the culture." href="#dmp-events" class="dmp-menu">Events<span class="icon-arrow-down"></span></a></li>
+						<li><a title="We have our in-house Rondtable Otakus Podcast, where we talk about current anime series in our individual ways." href="#dmp-podcasts" class="dmp-menu"><span class="icon-microphone"></span>Podcast<span class="icon-arrow-down"></span></a></li>
 					</ul>
 				</section>
 				<section id="dmp-page-menu">

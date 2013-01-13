@@ -2,7 +2,7 @@
 THEME NAME: The dere-moe Theme version 4
 THEME URI: http://deremoe.com
 DESCRIPTION: Theme designed for deremoe.
-VERSION: 4.0.0
+VERSION: 4.5.0
 AUTHOR: Barcenas. Aldrich Allen
 AUTHOR URI: http://deremoe.com
 TAGS: irregular
@@ -11,4 +11,18 @@ TAGS: irregular
 .aligncenter {
 	display:block;
 	margin:0 auto 0 auto;
+}
+
+@media print {
+
+	#dmp-navigation, #social-bar, #the-cat, .sharedaddy, #global-nav, #side-content {display:none;}
+
+	#dmp-brand .osaka-font {
+		text-align:center;
+		color: #910000;
+	}
+
+	#footer-wrapper {text-align:center;}
+
+	
 }
