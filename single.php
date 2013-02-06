@@ -20,6 +20,14 @@
 						?>
 						<p><i>Images Used are under <a href="http://www.law.cornell.edu/uscode/17/107.html" title="Copyright Act of 1976, 17 U.S.C. § 107">Fair Use</a>.</i></p>
 					</section>
+					<section class="footer-author-card">
+									<?php echo get_avatar(get_the_author_ID(),50) ?>
+									<p>
+										<strong>About <?php the_author(); ?>:</strong>
+										<br />
+										<?php  the_author_description() ?>
+									</p>
+					</section>
 					<footer id="comments">
 						<?php comments_template(); ?>
 					</footer>

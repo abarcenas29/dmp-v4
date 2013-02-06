@@ -6,6 +6,11 @@
 	 <?php wp_title('|',true,'right'); ?>
 	</title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
+
+	<meta name="application-name" content="Deremoe"/> 
+	<meta name="msapplication-TileColor" content="#910000"/> 
+	<meta name="msapplication-TileImage" content="bb486ca0-ecb0-44e8-bbe3-873fbb7aecea.png"/>
+
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
@@ -14,9 +19,20 @@
 		echo styling('css', base_url('source/css/font-css.css'));
                 echo styling('css', base_url('source/css/style.css'))
 	?>
-	<!-- Plugin Generated Code -->
+
 	<link rel="stylesheet" type="text/css" href="http://deremoe.com/wp-content/themes/dmp-v4/style.css?123123"/>  
 
+	<link rel="apple-touch-icon" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-iphone.png" /> 
+	<link rel="apple-touch-icon" sizes="72x72" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-ipad.png" /> 
+	<link rel="apple-touch-icon" sizes="114x114" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-iphone4.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-ipad3.png" />
+
+	<link href="http://deremoe.com/episode-blogging/feed/" rel="alternate" type="application/rss+xml" title="Deremoe » Episode Blogging" />
+	<link href="http://deremoe.com/events/feed" rel="alternate" type="application/rss+xml" title="Deremoe » Events" />
+	<link href="http://deremoe.com/podcast/feed" rel="alternate" type="application/rss+xml" title="Deremoe » Podcast" />
+	<link href="http://deremoe.com/opinions/feed" rel="alternate" type="application/rss+xml" title="Deremoe » Opinions" />
+
+	<!-- Plugin Generated Code -->
 	<?php wp_head() ?>
 </head>
 <body>
@@ -43,7 +59,7 @@
 						<li><a title="Would you like to go back to the home page?" href="<?php echo bloginfo('url') ?>" class="icomoon">5</a></li>
 						<li><a title="This is basically your guide to the website." href="#dmp-main-menu" class="dmp-menu">Main Menu<span class="icon-arrow-down"></span></a></li>
 						<li><a title="Deremoe also covers events that is worthy to be observed by those who are new to the culture." href="#dmp-events" class="dmp-menu">Events<span class="icon-arrow-down"></span></a></li>
-						<li><a title="We have our in-house Rondtable Otakus Podcast, where we talk about current anime series in our individual ways." href="#dmp-podcasts" class="dmp-menu"><span class="icon-microphone"></span>Podcast<span class="icon-arrow-down"></span></a></li>
+						<li><a title="We have our in-house Roundtable Otakus Podcast, where we talk about current anime series in our individual ways." href="#dmp-podcasts" class="dmp-menu"><span class="icon-microphone"></span>Podcast<span class="icon-arrow-down"></span></a></li>
 					</ul>
 				</section>
 				<section id="dmp-page-menu">

@@ -14,7 +14,6 @@
 						<?php
 							the_content();
 						?>
-						<p><i>Images Used are under Fair Use</i></p>
 					</section>
 					<footer id="comments">
 						
