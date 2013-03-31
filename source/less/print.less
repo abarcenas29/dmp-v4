@@ -1,0 +1,16 @@
+@media print {
+	#dmp-navigation, #social-bar a, #the-cat, .sharedaddy, #global-nav, #side-content {display:none;}
+	#dmp-brand .osaka-font {
+		text-align:center;
+		color: #910000;
+	}
+	#footer-wrapper {text-align:center;}
+	.the-content a[href]:after{content:"" attr(title) " (" attr(href) ")"; font-size:10px;}
+	a[href="#"]:after,a[href="javascript"]:after{content:""}
+	abbr[title]:after{content:" (" attr(title) ")"}
+	h2{page-break-after:avoid}
+	body{-webkit-print-color-adjust:exact}
+	#dmp-header-wrapper {
+		background-color: #c24a46;
+	}
+}

@@ -4,7 +4,7 @@
   #dmp-header-wrapper {
     display:table;
     .content-area();
-    background-color:#c60b0b;
+    background-color:@redmotif;
     height:8em;
     h1 {
         margin:0em;
@@ -13,11 +13,11 @@
       display:table-cell;
       vertical-align:middle;
       height:100%;
-      h1 {
+      span {
         text-transform:uppercase;
-        font-size:3.5em;
+        font-size:3.27em;
         text-align:left;
-        padding-left:0.5em;
+		text-shadow:1px 1px 1px rgb(10, 9, 9);
         a {
           color:white;
           text-decoration:none;
@@ -30,19 +30,18 @@
     #social-bar {
       display:table-cell;
       vertical-align:middle;
+	  font-family:'socialbar';
       height:100%;
-      h1 {
-        text-align:right;
-        font-family:'IcoMoon';
-        a {
-          color:white;
-          text-decoration:none;
-		  letter-spacing:1em;
-        }
-        a:last-child {
-            margin-right:1em;
-        }
-      }
+	  width:70%;
+      text-align:right;
+	  font-size:@header-font;
+      a {
+       color:white;
+       text-decoration:none;
+        }    
+	  a:last-child {
+	   padding-right: 1em;
+	  }
     }
   }
 }
@@ -132,7 +131,7 @@
     border-top:0.2em @colorfont solid;
     padding:1em 0 1em 0;
     #nav-main {
-      width:35em;
+      width:50%;
       vertical-align:top;
       #category-menu {
         text-align:left;
@@ -173,6 +172,7 @@
     #dmp-network {
       vertical-align:top;
       text-align:left;
+	  width:50%;
       .blogroll {
         h3 {
           .serif-font();

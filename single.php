@@ -11,7 +11,7 @@
 					<header>
 						<h3><?php the_title() ?></h3>
 						<section>
-							<p>By: <strong><a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php the_author() ?></a></strong> on <i><?php the_time(time_format()) ?></i></p>
+							<p>By <strong><?php put_co_author(); ?></strong> on <i><?php the_time(time_format()) ?></i></p>
 						</section>
 					</header>
 					<section class="main-content">
@@ -21,7 +21,7 @@
 						<p><i>Images Used are under <a href="http://www.law.cornell.edu/uscode/17/107.html" title="Copyright Act of 1976, 17 U.S.C. § 107">Fair Use</a>.</i></p>
 					</section>
 					<section class="footer-author-card">
-									<?php echo get_avatar(get_the_author_ID(),50) ?>
+									<?php echo get_avatar(get_the_author_ID(),70) ?>
 									<p>
 										<strong>About <?php the_author(); ?>:</strong>
 										<br />

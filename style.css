@@ -1,43 +1,9 @@
 /*
-THEME NAME: The dere-moe Theme version 4.5
+THEME NAME: Deremoe Theme 4.6
 THEME URI: http://deremoe.com
 DESCRIPTION: Theme designed for Deremoe.
-VERSION: 4.5.0
-AUTHOR: Barcenas. Aldrich Allen
+VERSION: 4.6
+AUTHOR: Team Deremoe
 AUTHOR URI: http://deremoe.com
 TAGS: irregular
 */
-
-.aligncenter {
-	display:block;
-	margin:0 auto 0 auto;
-}
-
-@media print {
-
-	#dmp-navigation, #social-bar, #the-cat, .sharedaddy, #global-nav, #side-content {display:none;}
-
-	#dmp-brand .osaka-font {
-		text-align:center;
-		color: #910000;
-	}
-
-	#footer-wrapper {text-align:center;}
-
-	
-}
-
-.footer-author-card {
-	padding: 10px;
-	border: 1px solid #c0c0c0;
-	display:table;
-}
-.footer-author-card img.avatar {
-	float:left;
-	padding-right:10px;
-	display:table-cell;
-}
-.footer-author-card p {
-	display:table-cell;
-	vertical-align:middle;
-}

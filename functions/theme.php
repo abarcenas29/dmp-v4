@@ -109,7 +109,7 @@
 				'<header><h3><a href="'. get_permalink() .'">'. get_the_title() .'</a></h3></header>'.
 				'<section>'. get_the_excerpt() .'</section>'.
 				'<footer>
-					<p>By: <a href="'. get_author_posts_url(get_the_author_ID()) .'">' . get_the_author() . '</a> | Posted On: '. get_the_time(time_format()) .'
+					<p>By '.get_co_author().' | Posted On: '. get_the_time(time_format()) .'
 					Filed Under:' . $wrapper .'
 					</p>
 				</footer>

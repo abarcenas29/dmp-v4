@@ -4,6 +4,7 @@
 @import "footer.less";
 @import "cat.less";
 @import "author.less";
+@import "print.less";
 
 /*
  * Common styles
@@ -21,7 +22,7 @@
 @content-color: white;
 @header-font:3em;
 
-@redmotif:#c60b0b;
+@redmotif:#c24a46;
 @darkmotif:#252525;
 
 @darkfont:#263034;
@@ -71,7 +72,7 @@ body {
   background-attachment: fixed;
   background-color: #E0DED7;
   background-size: auto 450px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 
 //http://media.deremoe.com/deremoeWP/wp-content/uploads/2012/05/2012-05-23_2242-290x290.png
@@ -120,7 +121,7 @@ h2 {
 }
 
 h3 {
-  font-size:@header-font  - 1.0;
+  font-size:@header-font  - 1;
 }
 
 h4 {
@@ -164,4 +165,9 @@ h4 {
   width:5em;
   background-color:black;
   color:white;
+}
+
+.aligncenter {
+	display:block;
+	margin:0 auto 0 auto;
 }

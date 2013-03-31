@@ -18,7 +18,7 @@
 							<?php the_excerpt() ?>
 						</section>
 						<footer>
-							<p>By:<strong><a href="<?php echo get_author_posts_url(get_the_author_ID()) ?>"><?php the_author() ?></a></strong> | In: <?php the_time(time_format()) ?></p>
+							<p>By <strong><?php put_co_author(); ?></strong> | In: <?php the_time(time_format()) ?></p>
 						</footer>
 					</article>
 				</section>

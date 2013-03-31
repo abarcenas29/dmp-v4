@@ -2,27 +2,29 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
-        <title>
-	 <?php wp_title('|',true,'right'); ?>
-	</title>
+        <title><?php wp_title('|',true,'right'); ?></title>
+		
         <link rel="profile" href="http://gmpg.org/xfn/11" />
 
 	<meta name="application-name" content="Deremoe"/> 
-	<meta name="msapplication-TileColor" content="#910000"/> 
-	<meta name="msapplication-TileImage" content="bb486ca0-ecb0-44e8-bbe3-873fbb7aecea.png"/>
+	<meta name="msapplication-TileColor" content="#c24a46"/> 
+	<meta name="msapplication-TileImage" content="windowstile.png"/>
 
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
-        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-        <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+	<link rel="logo" type="image/svg" href="http://deremoe.com/logo.svg"/>
+	
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+
 	<!-- Default Styling -->
 	<?php
 		echo styling('css', base_url('source/css/font-css.css'));
-                echo styling('css', base_url('source/css/style.css'))
+		echo styling('css', base_url('source/css/social/style.css'));
+        echo styling('css', base_url('source/css/style.css'))
 	?>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+ 
 
-	<link rel="stylesheet" type="text/css" href="http://deremoe.com/wp-content/themes/dmp-v4/style.css?123123"/>  
-
-	<link rel="apple-touch-icon" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-iphone.png" /> 
+	<link rel="apple-touch-icon" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-iphone.png"/> 
 	<link rel="apple-touch-icon" sizes="72x72" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-ipad.png" /> 
 	<link rel="apple-touch-icon" sizes="114x114" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-iphone4.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="http://deremoe.com/wp-content/themes/dmp-v4/source/images/apple-touch-icon-ipad3.png" />
@@ -39,15 +41,14 @@
 	<header id="dmp-header">
 		<section id="dmp-header-wrapper">
 			<section id="dmp-brand">
-				<h1 class="osaka-font"><a href="<?php bloginfo('url') ?>">deremoe</a></h1>
+				<span class="osaka-font"><a title="We blog about Japanese Pop Culture." href="<?php bloginfo('url') ?>">Deremoe</a></span>
 			</section>
 			<section id="social-bar">
-				<h1>
-					<a title="Facebook" href="<?php header_social('facebook') ?>" target="_blank">+</a>
-					<a title="Twitter" href="<?php header_social('twitter') ?>" target="_blank">-</a>
-					<a title="Google+" href="<?php header_social('gplus') ?>" target="_blank">/</a>
-					<a title="RSS Feed for all posts" href="<?php bloginfo('rss2_url') ?>" target="_blank">.</a>
-				</h1>
+					<a title="Facebook" href="<?php header_social('facebook') ?>" target="_blank">f</a>
+					<a title="Twitter" href="<?php header_social('twitter') ?>" target="_blank">t</a>
+					<a title="Google+" href="<?php header_social('gplus') ?>" target="_blank">g</a>
+					<a title="YouTube" href="<?php header_social('youtube') ?>" target="_blank">y</a>
+					<a title="RSS Feed for all posts" href="<?php bloginfo('rss2_url') ?>" target="_blank">r</a>
 			</section>
 		</section>
 	</header>
@@ -87,12 +88,12 @@
 					</article>
 					<article id="dmp-network" class="nav-wrapper">
 						<section class="blogroll">
-							<h3>Affiliates</h3>
+							<h3>Partners</h3>
 							<h4><a href="http://ph.animealliance.asia/" target="_blank">Anime Alliance</a></h4>
 						</section>
 						<section class="blogroll">
-							<h3>Services</h3>
-							<h4><a href="http://an.deremoe.com/" target="_blank">Anime Ninja</a></h4>
+							<h3>Affiliates</h3>
+							<h4><a href="http://animephproject.wordpress.com/" target="_blank">AnimePH Project</a></h4>
 						</section>
 					</article>
 				</section>

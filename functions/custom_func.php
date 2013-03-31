@@ -25,7 +25,8 @@
 		$social = array(
 			'facebook' => 'https://www.facebook.com/deremoe',
 			'twitter' => 'https://twitter.com/deremoe',
-			'gplus' => 'https://plus.google.com/107398008535995533732/posts'
+			'gplus' => 'https://plus.google.com/107398008535995533732/posts',
+			'youtube' => 'http://youtube.com/Deremoe'
 		);
 		echo $social[$key];
 	}
@@ -63,6 +64,30 @@
 			return 'next <span class="icon-arrow-4"></span>';
 		} else {
 			return '<span class="icon-arrow"></span> prev';
+		}
+	}
+	
+	function put_co_author()
+	{
+		if ( function_exists( 'coauthors_posts_links' ) ) 
+		{
+			coauthors_posts_links();
+		} 
+		else 
+		{
+			the_author_posts_link();
+		}
+	}
+	
+	function get_co_author()
+	{
+		if(function_exists('coauthors_posts_links'))
+		{
+			return coauthors_posts_links(null,null,null,null,false);
+		}
+		else
+		{
+			the_author_posts_link();
 		}
 	}
 ?>

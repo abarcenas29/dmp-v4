@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'socialbar';
+	src:url('fonts/socialbar.eot');
+	src:url('fonts/socialbar.eot?#iefix') format('embedded-opentype'),
+		url('fonts/socialbar.woff') format('woff'),
+		url('fonts/socialbar.ttf') format('truetype'),
+		url('fonts/socialbar.svg#socialbar') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'socialbar';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="socialbar-"] {
+*/
+.socialbar-feed, .socialbar-twitter, .socialbar-facebook, .socialbar-google-plus, .socialbar-youtube {
+	font-family: 'socialbar';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.socialbar-feed:before {
+	content: "\72";
+}
+.socialbar-twitter:before {
+	content: "\74";
+}
+.socialbar-facebook:before {
+	content: "\66";
+}
+.socialbar-google-plus:before {
+	content: "\67";
+}
+.socialbar-youtube:before {
+	content: "\79";
+}
