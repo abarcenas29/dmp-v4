@@ -24,7 +24,7 @@
 	function header_social($key) {
 		$social = array(
 			'facebook' => 'https://www.facebook.com/deremoe',
-			'twitter' => 'https://twitter.com/deremoe',
+			'twitter' => 'https://twitter.com/team_deremoe',
 			'gplus' => 'https://plus.google.com/107398008535995533732/posts',
 			'youtube' => 'http://youtube.com/Deremoe'
 		);
