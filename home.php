@@ -26,7 +26,7 @@
 		</section>
 		<aside id="side-content">
 			<article class="aside-container">
-				<header><h2>Episode Blogging</h2></header>
+				<header><h2>Reviews</h2></header>
 				<section>
 					<!--
 					<div class="review-content">

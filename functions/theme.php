@@ -61,7 +61,7 @@
 	
 	
 	function get_rev() {
-		$q = _q('cat='.catlist('ep'));
+		$q = _q('cat='.catlist('rev'));
 		$q->post_count = 8;
 		
 		while ($q->have_posts()) {
