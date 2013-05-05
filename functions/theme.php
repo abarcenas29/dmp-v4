@@ -95,7 +95,7 @@
 	
 	function generatePost() {
 		$args = array (
-			'category__not_in' => array( 1, catlist('ep') )
+			'category__not_in' => array(1)
 		);
 		
 		$q = _q($args);
