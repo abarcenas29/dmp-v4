@@ -52,7 +52,7 @@
 			</section>
 		</section>
 	</header>
-	<nav id="dmp-navigation">
+	<nav id="dmp-navigation" role="navigation">
 		<section id="dmp-navigation-wrapper">
 			<article id="dmp-nav-container">
 				<section id="dmp-cat-menu">
