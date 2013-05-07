@@ -7,7 +7,7 @@
 	
 	function theme_options_page() {
 	 add_menu_page(
-	 'The dere-moe Theme Editor', 
+	 'Theme Editor', 
 	 'dere-moe Theme', 
 	 'administrator', 
 	 'dmp-custom-options',
@@ -24,9 +24,9 @@
 	function header_social($key) {
 		$social = array(
 			'facebook' => 'https://www.facebook.com/deremoe',
-			'twitter' => 'https://twitter.com/team_deremoe',
+			'twitter' => 'https://twitter.com/Team_Deremoe',
 			'gplus' => 'https://plus.google.com/107398008535995533732/posts',
-			'youtube' => 'http://youtube.com/Deremoe'
+			'youtube' => 'http://www.youtube.com/Deremoe'
 		);
 		echo $social[$key];
 	}
