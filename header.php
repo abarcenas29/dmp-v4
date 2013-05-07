@@ -37,7 +37,7 @@
 	<!-- Plugin Generated Code -->
 	<?php wp_head() ?>
 </head>
-<body>
+<body class="hfeed site">
 	<header id="dmp-header">
 		<section id="dmp-header-wrapper">
 			<section id="dmp-brand">
