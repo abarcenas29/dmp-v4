@@ -41,7 +41,7 @@
 	<header id="dmp-header">
 		<section id="dmp-header-wrapper">
 			<section id="dmp-brand">
-				<span class="osaka-font"><a title="We blog about Japanese Pop Culture." href="<?php bloginfo('url') ?>">Deremoe</a></span>
+				<span class="osaka-font"><a href="<?php bloginfo('url') ?>">Deremoe</a></span>
 			</section>
 			<section id="social-bar">
 					<a title="Facebook" href="<?php header_social('facebook') ?>" target="_blank">f</a>
