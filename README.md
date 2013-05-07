@@ -1,6 +1,12 @@
 dmp-v4
 ======
 
-This is the theme that Deremoe.com is using, created by our Technical Head Aldrich Barcenas.
-Notice that since this is a fork of the site, I'm adding changes that might reflect on the website.
+Deremoe.com Version 4
+
+This is the theme that Deremoe.com is using, created by our Technical Head [Aldrich Barcenas](http://github.com/abarcenas29).
+
+You can check out the end product at <http://deremoe.com>.
+
+
+
 
