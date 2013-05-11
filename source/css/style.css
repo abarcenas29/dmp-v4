@@ -905,7 +905,7 @@
     text-align: center;
   }
   .the-content a[href]:after {
-    content: "" attr(title) " (" attr(href) ")";
+    content: " " attr(title) " (" attr(href) ") ";
     font-size: 10px;
   }
   a[href="#"]:after,
