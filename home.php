@@ -8,12 +8,6 @@
 	</article>
 	<article id="home-wrapper">
 		<section id="home-content">
-			<?php if(strtotime(date('Y-m-d')) < strtotime('2013-05-27')): ?>
-			<a href="https://apps.tradablebits.com/fb/VMtb" target="_new">
-			<img src="http://media.deremoe.com.s3.amazonaws.com/2013/05/banner-for-vote.jpg"
-			     width="100%"/>
-			</a>
-			<?php endif; ?>
 			<?php
 				generatePost();
 			?>
