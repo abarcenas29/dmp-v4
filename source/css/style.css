@@ -22,9 +22,9 @@
 }
 #dmp-header #dmp-header-wrapper #dmp-brand span {
   text-transform: uppercase;
-  font-size: 3.27em;
+  font-size: 4em;
   text-align: left;
-  text-shadow: 1px 1px 1px #0a0909;
+  margin-left: 40px;
 }
 #dmp-header #dmp-header-wrapper #dmp-brand span a {
   color: white;
@@ -905,7 +905,7 @@
     text-align: center;
   }
   .the-content a[href]:after {
-    content: "" attr(title) " (" attr(href) ")";
+    content: " " attr(title) " (" attr(href) ") ";
     font-size: 10px;
   }
   a[href="#"]:after,

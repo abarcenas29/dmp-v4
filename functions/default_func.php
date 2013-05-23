@@ -196,7 +196,7 @@
 	// custom admin login logo
 	function custom_login_logo() {
 		echo '<style type="text/css">
-		h1 a { background-image: url('.get_bloginfo('template_directory').'/sources/images/deremoe-logo.png) !important; }
+		h1 a { background-image: url(logo.svg) !important; }
 		</style>';
 	}
 	add_action('login_head', 'custom_login_logo');
