@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<article class="post-content">
+	<article class="post-content" class="hentry entry">
 		<section class="content-area" id="post-area">
 			<?php the_post() ?>
 			<div id="the-cat">
@@ -9,7 +9,7 @@
 			<section class="the-post">
 				<article class="the-content">
 					<header>
-						<h3><?php the_title() ?></h3>
+						<h3 class="entry-title"><?php the_title() ?></h3>
 						<section>
 							<p>By <strong><?php put_co_author(); ?></strong> on <i><?php the_time(time_format()) ?></i></p>
 						</section>
