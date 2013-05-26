@@ -8,18 +8,6 @@
 	</article>
 	<article id="home-wrapper">
 		<section id="home-content">
-		-      <!--
-		-      <article class="content-post">
-		-        <header><h3><a href="#">New Headline</a></h3></header>
-		-        <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-		-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-		-          minim veniam, ... 
-		-        </section>
-		-        <footer>
-		-          <p>By: Author Blah | in AAA</p>
-		-        </footer>
-		-      </article>
-		-      -->
 			<?php
 				generatePost();
 			?>
