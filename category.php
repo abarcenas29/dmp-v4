@@ -3,6 +3,7 @@
 		<section id="category-wrapper">
 			<div id="cat-title">
 				<h2><span>Category:</span> <?php single_cat_title() ?></h2>
+				<div><?php echo category_description( get_category_by_slug('category-slug')->term_id ); ?></div>
 				<hr>
 			</div>
 			<div id="cat-content">
