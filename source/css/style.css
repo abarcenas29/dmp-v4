@@ -365,6 +365,7 @@
 #dmp-home-body #announcement-content #announcement-container {
   display: table-cell;
   padding: 0.5em 1em 0.5em 1em;
+  border-bottom: 1px solid #ccc;
 }
 #dmp-home-body #announcement-content #announcement-container #annoucement-title {
   font-family: 'Oswald', sans-serif;
