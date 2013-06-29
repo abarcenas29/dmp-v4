@@ -367,6 +367,7 @@
   padding: 0.5em 1em 0.5em 1em;
 }
 #dmp-home-body #announcement-content #announcement-container #annoucement-title {
+  font-size: 35px;
   font-family: 'Oswald', sans-serif;
   color: #c24a46;
 }
