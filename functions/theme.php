@@ -99,7 +99,7 @@
 		);
 		
 		$q = _q($args);
-		$q->post_count = 10;
+		$q->post_count = 12;
 		
 		while ($q->have_posts()){
 			$q->the_post();
