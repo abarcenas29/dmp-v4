@@ -1,4 +1,20 @@
 <?php
+	if(function_exists('add_theme_support'))
+	{
+		$args = array(
+			'posts',
+			//'d5_series_review'
+			);
+	add_theme_support('post-thumbnails',$args);
+	}
+
+	if(function_exists('add_image_size'))
+	{
+		add_image_size('top_image_size',1100,446,true);
+		add_image_size('thumbnail',290,290,true);
+	}
+	
+	
 	function search_ajax() {
 		global $wpdb;
 		$esc_string = mysql_escape_string($_POST['data']['query']);
