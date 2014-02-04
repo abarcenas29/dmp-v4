@@ -368,6 +368,7 @@
   border-bottom: 1px solid #ccc;
 }
 #dmp-home-body #announcement-content #announcement-container #annoucement-title {
+  font-size: 35px;
   font-family: 'Oswald', sans-serif;
   color: #c24a46;
 }
